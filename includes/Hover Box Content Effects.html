@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hover Box Content Effects</title>
+</head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+<body>
+	<style type="text/css">
+	body
+	{
+		margin: 0;
+		padding: 0;
+		background:#262626;
+		font-family: verdana;
+	}
+	.box1
+	{
+		position: absolute;
+		top:50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		width: 340px;
+		height: 320px;
+		background: #262626;
+		box-sizing: border-box;
+		padding: 15px;
+		transition: .5s;
+		overflow: hidden;
+	}
+	.box1 p
+	{
+		margin: 0;
+		padding: 0;
+		color: #fff;
+		font-size: 14px;
+		transition: .5s;
+		transition-delay: .5s;
+		transform: scale(.8);
+		text-align: justify;
+	}
+	.box1:before
+	{
+		content: '';
+		position: absolute;
+		width:0%;
+		height: 0%;
+		top: 0;
+		left: 0;
+		border-top: 2px solid #fff;
+		border-left:2px solid #fff;
+		opacity: 0;
+		transition: .5s;
+		box-sizing: border-box;
+	}
+		.box1:after
+	{
+		content: '';
+		position: absolute;
+		width:0%;
+		height: 0%;
+		bottom: 0;
+		right: 0;
+		border-bottom: 2px solid #fff;
+		border-right:2px solid #fff;
+		opacity: 0;
+		transition: .5s;
+		box-sizing: border-box;
+	}
+	.box1:hover:before
+	{
+		width: 100%;
+		height: 100%;
+		opacity: 1;
+	}
+	.box1:hover:after
+	{
+		width: 100%;
+		height: 100%;
+		opacity: 1;
+	}
+	.box1:hover p
+	{
+		transform: scale(1);
+	}
+	.box1:hover
+	{
+		box-shadow: 0 25px 30px rgba(0,0,0,.5);
+	}
+	.box1 span
+	{
+		position: absolute;
+		top: 0;
+		left: -120%;
+		width: 100%;
+		height: 100%;
+		background: rgba(255,255,255,.2);
+		transition: .5s;
+		transform: skewX(5deg);
+	}
+	.box1:hover span
+	{
+		left: 120%;
+	}
+
+</style>
+<div class="box1">
+	
+	<span></span>
+	<p>Lalu Prasad Yadav(born 11 June 1948)[3][4] is an Indian politician from the state of Bihar. He is the President of the Rashtriya Janata Dal, former Chief Minister of Bihar, former UPA Minister of Railways, and former Member of Parliament of the 15th Lok Sabha.
+	He entered politics at Patna University as a student leader and was elected as then youngest member of the Lok Sabha in 1977 as a Janata Party candidate at the age of 29</p>
+</div>
+</body>
+</html>

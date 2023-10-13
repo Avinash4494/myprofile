@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Description Hover</title>
+</head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<body>
+<style type="text/css">
+  body
+  {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+  }
+  .main
+  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 400px;
+  }
+  .main .layer1
+  {
+width: 100%;
+height: 100%;
+background: #4ef75c;  
+transform: skewX(-30deg);
+box-shadow: 0 0 0 15px #fff;
+z-index: 1;
+transition: .5s;
+  }
+  .main .layer2
+  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #262626;
+    z-index: -1;
+    transition: 1s;
+  }
+   .main:hover .layer2
+   {
+    transform: scaleX(1.5) scaleY(.8);
+   }
+   .content
+   {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    right: 20px;
+    background: #fff;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 10px 15px rgba(0,0,0,.4);
+   }
+   .main .content h1
+   {
+    margin:0;
+    padding: 0;
+    color: #262626;
+    font-weight: 700;
+    font-family:times new roman;
+    letter-spacing: 1px;
+   }
+    .main .content p
+   {
+    padding-top: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: cosmic sans;
+    font-size: 16px;
+    text-align:justify;
+   }
+     .main .content a
+   {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background:  #f44336;
+    color: #fff;
+   }
+  
+</style>
+<div class="main">
+  <div class="layer1"></div>
+  <div class="layer2"></div>
+  <div class="content">
+    <h1>Who was Lal Bahadur Sahstri ?</h1>
+    <p>   Lal Bahadur Shastri (2 October 1904 – 11 January 1966) was the 2nd Prime Minister of India and a senior leader of the Indian National Congress political party.Shastri joined the Indian independence movement in the 1920s and with his friend Nithin Eslavath. Deeply impressed and influenced by Mahatma Gandhi (with whom he shared his birthday), he became a loyal follower, first of Gandhi, and then of Jawaharlal Nehru. Following independence in 1947, he joined the latter's government and became one of Prime Minister Nehru's principal, first as Railways Minister (1951–56), and then in a variety of other functions, including Home Minister.</p>
+    <a href="#">Read More</a>
+  </div>
+</div>
+</body>
+</html>

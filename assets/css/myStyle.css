@@ -1,0 +1,700 @@
+/*================sectionWelcome=================*/
+body {
+    font-family: "Ubuntu";
+}
+
+.sectionWelcome {
+    /*    background-color: #404355;*/
+    height: 100%;
+    background-image: url(../../assets/image/smoke03.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 58px 0px 0px 0px;
+
+}
+
+.socialIcons ul {
+    margin-left:60px;
+    margin-top: 30px;
+
+}
+
+.socialIcons ul li {
+    list-style: none;
+    width: 45px;
+    height: 45px;
+    float: left;
+    background-color: #05BF81;
+    transition: .5s;
+    margin: 15px;
+    border-radius: 4px;
+    padding: 5px 0px 5px 10px;
+    overflow: hidden;
+    opacity: 1;
+    margin-bottom: 110px;
+
+}
+
+
+
+.socialIcon ul li:hover {
+    opacity: 0.5;
+}
+
+.socialIcons a {
+    color: white;
+    font-size: 1.8em;
+}
+
+.sectionHidden {
+    height: 00px;
+    background-color: transparent;
+}
+
+.aboutContent {
+    padding: 80px 40px;
+}
+
+.aboutNaming h1 {
+    color: #05BF81;
+    font-size: 2.5em;
+    padding-bottom: 25px;
+    font-family: "Sofia";
+}
+
+.myNameSlider h1 {
+    color: white;
+    font-size: 4.5em;
+    letter-spacing: 2px;
+    font-family: "Carter One";
+    position: absolute;
+    letter-spacing: 5px;
+    margin: 0;
+    color: transparent;
+    text-align: center;
+    text-shadow: 3px 3px 3px transparent;
+}
+
+.myNameSlider h1:before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    color: white;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-shadow: 3px 3px 3px #2C3E50;
+    border-right: 1px solid white;
+    animation: type 5s steps(30) infinite;
+    white-space: nowrap;
+}
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+
+    50% {
+        width: 100%;
+    }
+}
+
+.aboutMe h4 {
+    color: white;
+    font-size: 1.5em;
+    padding-top: 30px;
+    line-height: 30px;
+    margin-top: 75px;
+    font-family: "Ubuntu";
+}
+.aboutMeDescp h4{
+        color: white;
+    font-size: 1.3em;
+    padding: 25px;
+    padding-left: 0px;
+    line-height: 35px;
+    text-align: justify;
+    margin-top: -10px;
+    font-family: "Ubuntu";
+}
+.profileImage {
+    padding: 40px;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+.context {
+    width: 100%;
+    position: absolute;
+
+
+}
+
+.context h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+.area {
+
+    width: 100%;
+    height: 100%;
+}
+
+.circles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background-image: linear-gradient(to right, #B436E3, #7B33FD);
+    animation: animate 25s linear infinite;
+     box-shadow: 0px 10px 10px 2px #7B33FD;
+    bottom: -150px;
+
+}
+
+.circles li:nth-child(1) {
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2) {
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3) {
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4) {
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5) {
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6) {
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7) {
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8) {
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9) {
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10) {
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+@keyframes animate {
+
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100% {
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+
+.aboutImg {
+    padding-top: 80px;
+
+
+}
+
+.topBoot img {
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 90px;
+}
+
+.topCss img {
+    height: 80px;
+    width: 80px;
+    margin-left: 400px;
+    position: absolute;
+    margin-top: 190px;
+}
+
+.topHtml img {
+    height: 80px;
+    width: 80px;
+    margin-left: 220px;
+    position: absolute;
+    margin-top: -20px;
+}
+
+a .aboutButton {
+    color: white;
+    text-decoration: none;
+}
+
+.aboutButton {
+    background-color: #05BF81;
+    padding: 8px 30px;
+    border: none;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    margin-top: 30px;
+    transition: 0.5s;
+    position: absolute;
+    margin-bottom: 5px;
+
+}
+
+.aboutButton:hover {
+
+    transition: 0.3s;
+    background-color: white;
+    color: #05BF81;
+    margin-top: 35px;
+    box-shadow: 0px 10px 10px 2px #2C3E50;
+}
+
+.iconDown i {
+    font-size: 3em;
+    color: white;
+    margin-top: -30px;
+    margin-left: 65px;
+}
+
+/*================sectionWelcome=================*/
+
+/*================sectionAbout=================*/
+.sectionAbout {
+    /*    background-color: #404355;*/
+    height: 100%;
+    background-image: url(../../assets/image/splash01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 66px 0px;
+}
+
+.project {
+    margin-top: -110px;
+}
+
+.project .well {
+    padding: 5px;
+    background-color: #4B4F5C;
+    border: none;
+    color: white;
+    overflow: hidden;
+
+}
+
+.project .well h1 {
+    margin: 0px;
+    font-size: 4em;
+    padding-top: 5px;
+    color: #05BF81;
+
+}
+
+.project .well h4 {
+    line-height: 25px;
+}
+
+/*================sectionAbout=================*/
+
+/*================sectionPortfolio=================*/
+.sectionPort {
+    background-color: #404355;
+    height: 100%;
+    background-image: url(../../assets/image/smoke03.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 71px 00px 50px 0px;
+}
+
+.website .well {
+    padding: 0px;
+    overflow: hidden;
+    border: none;
+}
+
+
+.website h4 {
+    color: white;
+    text-align: center;
+    margin: 0px;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    margin-top: -10px;
+}
+
+a .viewButton {
+    color: white;
+    text-decoration: none;
+}
+
+.viewButton {
+    background-color: #05BF81;
+    padding: 5px 20px;
+    border: none;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    transition: 0.5s;
+    opacity: 0;
+    margin-top: 115px;
+    position: absolute;
+    margin-left: 100px;
+    text-align: center;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+
+.website img {
+    width: 100%;
+    transition: .5s;
+}
+
+.captionScale {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: -10px;
+    margin-left: -5px;
+    width: 382px;
+    height: 178px;
+    background-color: #05BF81;
+    transform: scale(0.9);
+    opacity: 0;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.aboutScale {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.aboutScale h1 {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
+.aboutScale {
+    color: #fff;
+    margin: 0px 0 0;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.website:hover .captionScale {
+    transform: scale(0.9);
+    opacity: 1;
+}
+
+a .viewWebButton {
+    color: white;
+    text-decoration: none;
+}
+
+.viewWebButton {
+    background-color: transparent;
+    padding: 5px 20px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    transition: 0.3s;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+
+.viewWebButton:hover {
+    background-color: white;
+    color: #05BF81;
+    transition: 0.5s;
+    border: 2px solid white;
+}
+
+.website:hover .viewButton {
+
+    opacity: 1;
+}
+
+.sub_list .nav a {
+    color: #05BF81;
+    padding-bottom: 5px;
+    font-family: 'Ubuntu';
+}
+
+#websites,
+#loginForms,
+#dashboards {
+    background-color: #5A5D66;
+    height: 570px;
+    padding: 15px;
+    overflow-y: scroll;
+    margin-bottom: 6px;
+    border-radius: 10px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #5A5D66;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #05BF81;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/*================sectionPortfolio=================*/
+
+/*================sectionTestimonials=================*/
+.sectionTestimonials {
+    background-color: #404355;
+    height: 100%;
+    background-image: url(../../assets/image/tech07.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px 72px 0px;
+}
+.carouselPaggination {
+    background-color: #05BF81;
+    margin-top: 80px;
+    position: relative;
+}
+
+.carousel-indicators .active {
+    background-color: #05BF81;
+    border: 1px solid #05BF81;
+    border-radius: 10px;
+    height: 7px;
+    width: 50px;
+    margin-bottom: 50px;
+}
+
+.carousel-indicators li {
+    background-color: white;
+    height: 7px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-bottom: 40px;
+}
+
+.carouselWell .well {
+    background-color: transparent;
+    padding: 10px 30px 10px 30px;
+    color: white;
+    border: none;
+}
+
+.carouselWell .well h3 {
+    font-size: 1.2em;
+    line-height: 10px;
+    text-align: center;
+}
+
+.carouselWell .well h5 {
+    font-size: 1em;
+    line-height: 10px;
+    text-align: center;
+}
+
+.carouselWell .well p {
+    font-size: 1.4em;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Athiti', cursive;
+}
+
+.userImageFeedback img {
+    height: 70px;
+    width: 70px;
+    margin-left: 70px;
+}
+/*================sectionTestimonials=================*/
+
+/*================sectionContact=================*/
+.sectionContact {
+    background-color: #404355;
+    height: 100%;
+    background-image: url(../../assets/image/tech05.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 52px 0px;
+}
+
+.addressIcon {
+    background-color: #05BF81;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    margin: 10px 0px;
+}
+
+.addressIcon i {
+    font-size: 1.8em;
+    padding: 20px;
+    color: white;
+}
+
+.addressPane {
+    padding-top: 85px;
+}
+
+.addressPane h3,
+.addressPane h5 {
+    color: #05BF81;
+}
+
+.addressPane h3 {
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.addressPane h5 {
+    margin: 0px;
+    font-size: 1.1em;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.contactForm {
+    padding-top: 85px;
+    padding-bottom: 25px;
+}
+ 
+.contactForm input {
+    background-color: transparent;
+    padding: 25px;
+    border-radius: 5px;
+    border: 1px solid #05BF81;
+}
+
+.contactForm textarea {
+    background-color: transparent;
+    padding: 25px;
+    border-radius: 5px;
+    border: 1px solid #05BF81;
+}
+
+.submitButton {
+    background-color: #05BF81;
+    padding: 8px 30px;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    transition: 0.5s;
+    text-align: center;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+/*================sectionContact=================*/
+
+/*================sectionService=================*/
+.sectionService {
+    background-color: #404355;
+    height: 100%;
+    background-image: url(../../assets/image/tech14.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 83px 00px;
+}
+
+/*================sectionService=================*/
+

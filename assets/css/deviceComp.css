@@ -1,0 +1,369 @@
+      @media screen and (max-width: 992px) {
+          .aboutContent {
+              padding: 10px;
+          }
+
+          .aboutNaming h1 {
+              color: #05BF81;
+              font-size: 2em;
+              padding-bottom: 15px;
+              font-family: "Sofia";
+              margin-top: -20px;
+          }
+
+          .myNameSlider h1 {
+              color: white;
+              font-size: 2.5em;
+              letter-spacing: 2px;
+              font-family: "Carter One";
+              position: absolute;
+              letter-spacing: 5px;
+              margin: 0;
+              color: transparent;
+              text-align: center;
+              text-shadow: 3px 3px 3px transparent;
+          }
+
+          .myNameSlider h1:before {
+              content: attr(data-text);
+              position: absolute;
+              top: 0;
+              color: white;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              overflow: hidden;
+              text-shadow: 3px 3px 3px #2C3E50;
+              border-right: 1px solid white;
+              animation: type 5s steps(30) infinite;
+              white-space: nowrap;
+          }
+
+          @keyframes type {
+              0% {
+                  width: 0;
+              }
+
+              50% {
+                  width: 100%;
+              }
+          }
+
+          .profileImage {
+              padding: 20px;
+
+              margin-top: 50px;
+          }
+
+          .sectionWelcome .aboutMe h4 {
+              color: white;
+              font-size: 1.5em;
+              padding-top: 00px;
+              line-height: 30px;
+              font-family: "Ubuntu";
+          }
+          .aboutMeDescp h4{
+        color: white;
+    font-size: 1.3em;
+    padding: 0px;
+    text-align: justify;
+ 
+}
+
+
+          .aboutButton {
+              background-color: #05BF81;
+              padding: 8px 45px;
+              border: none;
+              font-size: 1.1em;
+              letter-spacing: 1px;
+              border-radius: 4px;
+              margin-top: 10px;
+              transition: 0.5s;
+              position: absolute;
+              margin-bottom: 5px;
+          }
+          .downloadCVButton {
+              background-color: #05BF81;
+              padding: 8px 30px;
+              border: none;
+              font-size: 1.1em;
+              letter-spacing: 1px;
+              border-radius: 4px;
+              margin-top: 10px;
+              transition: 0.5s;
+              position: absolute;
+              margin-bottom: 5px;
+          }
+          a .downloadCVButton {
+    color: white;
+    text-decoration: none;
+}
+          .smallDeviceIcons .socialIcons ul {
+              margin-left: -15px;
+              margin-top: 00px;
+
+          }
+
+          .smallDeviceIcons .socialIcons a {
+              color: white;
+              font-size: 1.5em;
+          }
+
+          .smallDeviceIcons .socialIcons ul li {
+              list-style: none;
+              width: 40px;
+              height: 40px;
+              float: left;
+              background-color: #05BF81;
+              transition: .5s;
+              margin: 15px;
+              margin-left: 17px;
+              border-radius: 4px;
+              padding: 5px 0px 5px 10px;
+              overflow: hidden;
+              opacity: 1;
+              margin-bottom: 10px;
+
+          }
+ 
+          .project .well {
+              margin-top: 120px;
+          }
+
+          .sectionToggle .aboutMe h4 {
+              color: white;
+              font-size: 1.2em;
+              padding-top: 00px;
+              line-height: 30px;
+              margin-top: 30px;
+              text-align: center;
+              font-family: "Ubuntu";
+          }
+
+          .sectionToggle .myName h1 {
+              font-size: 2em;
+          }
+
+          .aboutContent .myName h1 {
+              font-size: 1.8em;
+              line-height: 35px;
+          }
+
+          .myName h1 {
+              animation-name: myNae;
+              animation-duration: 1s;
+          }
+
+          @keyframes myName {
+              from {
+                  margin-top: 00px;
+              }
+
+              to {
+                  margin-top: 0px;
+              }
+          }
+
+          .sectionAbout {
+              background-color: #404355;
+              height: 100%;
+              background-image: url(../../asset/image/smoke09.png);
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              padding: 77px 0px 125px 0px;
+          }
+
+          .sectionWelcome {
+              /*    background-color: #404355;*/
+              height: 100%;
+              background-image: url(../../assts/image/smoke03.png);
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              padding: 58px 0px 125px 0px;
+
+          }
+
+          #about .aboutNaming h1 {
+              margin-top: -50px;
+          }
+
+          .sectionPort {
+              background-color: #404355;
+              height: 100%;
+              background-image: url(../../assets/image/smoke03.png);
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              padding: 11px 00px 50px 0px;
+          }
+
+          .sub_list .nav a {
+              color: #05BF81;
+              padding-bottom: 5px;
+              float: left;
+              font-family: 'Ubuntu';
+          }
+
+          #websites,
+          #loginForms,
+          #dashboards {
+
+              height: 570px;
+              padding: 10px;
+              overflow-x: hidden;
+              overflow-y: scroll;
+              margin-bottom: 6px;
+              border-radius: 10px;
+          }
+
+          .sectionService {
+              background-color: #404355;
+              height: 100%;
+              background-image: url(../../assets/image/tech14.png);
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              padding: 20px 00px 50px 0px;
+          }
+           .sectionService .servicePannel h2{
+              background-color: #5A5D66;
+              padding: 5px;
+              width: 150px;
+              text-align: center;
+              font-size: 1.3em;
+              position: absolute;
+              z-index: 5;
+              margin-left: 200px;
+              margin-top: -30px;
+              float: right;
+            }
+          .carouselWell .well {
+              background-color: #05BF81;
+              box-shadow: 0px 10px 10px 2px #2C3E50;
+              padding: 0px;
+              color: white;
+              border: none;
+          }
+
+          .carouselWell .well p {
+              font-size: 1.4em;
+              line-height: 30px;
+              text-align: center;
+              padding: 15px;
+              font-family: 'Athiti', cursive;
+          }
+
+          .sectionTestimonials {
+              background-color: #404355;
+              height: 100%;
+              background-image: url(../../assets/image/tech07.png);
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              padding: 20px 0px 72px 0px;
+          }
+
+          .carousel-indicators .active {
+              background-color: #05BF81;
+              border: 1px solid #05BF81;
+              border-radius: 10px;
+              height: 7px;
+              width: 40px;
+              margin: 5px;
+              margin-bottom: 50px;
+          }
+
+          .carousel-indicators li {
+              background-color: white;
+              height: 7px;
+              width: 40px;
+              margin: 5px;
+              border-radius: 5px;
+              border: 1px solid white;
+              margin-bottom: 40px;
+          }
+
+          .sectionContact {
+              background-color: #404355;
+              height: 100%;
+              background-image: url(../../assets/image/tech05.png);
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              padding: 10px 0px 50px 0px;
+          }
+
+          .addressIcon {
+              background-color: #05BF81;
+              height: 50px;
+              width: 50px;
+              border-radius: 50%;
+              margin: 10px 0px;
+          }
+
+          .addressIcon i {
+              font-size: 1.4em;
+              padding: 15px;
+              color: white;
+          }
+          .addressPane {
+    padding-top: 15px;
+}
+
+          .sectionContact .contactWell .well {
+              background-color: #404355;
+              padding: 0px 20px;
+              border:none;
+              background-image: url(assets/image/tech05.png);
+              background-position: center;
+
+              background-repeat: no-repeat;
+              background-size: cover;
+          }
+          .addressPane h3{
+   font-size: 1.4em;
+   font-weight: bolder;
+}
+          .addressPane h5{
+   font-size: 1em;
+ 
+}
+.contactForm {
+    padding-top: 55px;
+    padding-bottom: 25px;
+}
+.submitButton {
+    background-color: #05BF81;
+    padding: 7px 30px;
+    border: none;
+    color: white;
+    font-size: 1em;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    transition: 0.5s;
+    text-align: center;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+.contactForm input {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #05BF81;
+}
+
+.contactForm textarea {
+    background-color: white;
+    padding: 25px;
+    border-radius: 5px;
+    border: 1px solid #05BF81;
+}
+::placeholder {
+    color: #05BF81;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+      }

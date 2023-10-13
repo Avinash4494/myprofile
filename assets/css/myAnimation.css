@@ -1,0 +1,38 @@
+.topBoot img,
+.topCss img,
+.topHtml img {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+
+}
+
+@keyframes example {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: yellow;
+    }
+
+    50% {
+        background-color: #05BF81;
+    }
+
+    100% {
+        background-color: green;
+    }
+}
+
+.myName h1
+{
+     animation-name: myName;
+    animation-duration: 3s;
+}
+@keyframes myName
+{
+    from{margin-left: -50px;}
+    to{margin-left: 0px;}
+}
